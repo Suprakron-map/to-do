@@ -10,7 +10,7 @@ $result = mysqli_query($conn, $sql);
 
 if ($result) {
 
-    header("location: ./index.php");
+    header("location: ./indes.php");
 } else {
     // echo "Sorry We Can't Connect";
 }
